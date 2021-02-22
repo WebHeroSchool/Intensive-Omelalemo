@@ -1,15 +1,15 @@
-div.{
-	font-family: fonts/PT_Serif/PTSerif-Bold.ttf;
+div {
+	font-family: "PTSerif-Bold"
 }
-nav.{
-	font-family: fonts/Roboto/Roboto-Bold.ttf;
+nav {
+	font-family: "Roboto-Bold";
 }
-h1.{
-	font-family: fonts/PT_Serif/PTSerif-Bold.ttf;
+h1 {
+	font-family: "PTSerif-Bold";
 }
-p.{
-	font-family: fonts/Roboto/Roboto-Bold.ttf;
+p {
+	font-family: "Roboto-Bold";
 }
-button.{
-	font-family: fonts/Roboto/Roboto-Bold.ttf;
+button {
+	font-family: "Roboto-Bold";
 }
