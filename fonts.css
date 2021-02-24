@@ -1,88 +1,88 @@
-@font-fase{
+@font-faсe{
 	font-family: 'PTSerif-Bold';
 	scr: url(fonts/PT_Serif/PTSerif-Bold.woff) format('woff'), url(fonts/PT_Serif/PTSerif-Bold.woff2) format('woff2');
 	 font-weight: normal; 
 	font-style: normal;
 }
-@font-fase{
+@font-faсe{
 	font-family: 'PTSerif-Italic';
 	src: url(fonts/PT_Serif/PTSerif-BoldItalic.woff) format('woff'), url(fonts/PT_Serif/PTSerif-BoldItalic.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-fase{
+@font-faсe{
 	font-family: 'PTSerif-BoldItalic';
 	src: url(fonts/PT_Serif/PTSerif-Italic.woff)format('woff'), url(fonts/PT_Serif/PTSerif-Italic.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-fase{
+@font-faсe{
 	font-family: 'PTSerif-Regular';
 	src: url(fonts/PT_Serif/PTSerif-Regular.woff)format('woff'), url(fonts/PT_Serif/PTSerif-Regular.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-fase{
+@font-faсe{
 	font-family: 'Roboto-Black';
 	src: url(fonts/Roboto/Roboto-Black.woff)format('woff'), url(fonts/Roboto/Roboto-Black.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-fase{
+@font-faсe{
 	font-family: 'Roboto-BlackItalic';
 	src: url(fonts/Roboto/Roboto-BlackItalic.woff)format('woff'), url(fonts/Roboto/Roboto-BlackItalic.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-fase{
+@font-faсe{
 	font-family: 'Roboto-Bold';
 	src: url(fonts/Roboto/Roboto-Bold.woff)format('woff'), url(fonts/Roboto/Roboto-Bold.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-fase{
+@font-faсe{
 	font-family: 'Roboto-Italic';
 	src: url(fonts/Roboto/Roboto-Italic.woff)format('woff'), url(fonts/Roboto/Roboto-Italic.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-fase{
+@font-faсe{
 	font-family: 'Roboto-Light';
 	src: url(fonts/Roboto/Roboto-Light.woff)format('woff'), url(fonts/Roboto/Roboto-Light.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-fase{
+@font-faсe{
 	font-family: 'Roboto-LightItalic';
 	src: url(fonts/Roboto/Roboto-LightItalic.woff)format('woff'), url(fonts/Roboto/Roboto-LightItalic.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-fase{
+@font-faсe{
 	font-family: 'Roboto-Medium';
 	src: url(fonts/Roboto/Roboto-Medium.woff)format('woff'), url(fonts/Roboto/Roboto-Medium.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-fase{
+@font-faсe{
 	font-family: 'Roboto-MediumItalic';
 	src: url(fonts/Roboto/Roboto-MediumItalic.woff)format('woff'), url(fonts/Roboto/Roboto-MediumItalic.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-fase{
+@font-faсe{
 	font-family: 'Roboto-Regular';
 	src: url(fonts/Roboto/Roboto-Regular.woff)format('woff'), url(fonts/Roboto/Roboto-Regular.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-fase{
+@font-faсe{
 	font-family: 'Roboto-Thin';
 	src: url(fonts/Roboto/Roboto-Thin.woff)format('woff'), url(fonts/Roboto/Roboto-Thin.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-fase{font-family: 'Roboto-ThinItalic';
+@font-faсe{font-family: 'Roboto-ThinItalic';
 src: url(fonts/Roboto/Roboto-ThinItalic.woff)format('woff'), url(fonts/Roboto/Roboto-ThinItalic.woff) format('woff2');
 	font-weight: normal;
 	font-style: normal;
