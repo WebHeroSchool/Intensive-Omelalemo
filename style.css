@@ -7,18 +7,50 @@
 	src:url(fonts/Roboto/Roboto-Regular.woff)format('woff'), url(fonts/Roboto/Roboto-Regular.woff2) format('woff2');
 }
 
-div {
-	font-family: "PTSerif-Bold"
+body {
+	margin: 0px;
 }
-nav {
-	font-family: "Roboto-Regular";
+.wrapper {
+	margin: auto;
+	width: 80%;
+	border: dashed 1px red;
 }
-h1 {
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
 	font-family: "PTSerif-Bold";
+	padding: 40px 0;
+	border: dashed 1px red;
+	align-items: center;
 }
-p {
+.menu {
+	display: flex;
+	align-items: center;
+}
+.menu__item {
+	font-family: "Roboto-Regular";
+	font-weight: bold;
+	padding: 0 13px;
+	border: dashed 1px red;
+}
+.menu__item:last-child {
+	padding-right: 0;
+}
+.main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-content__titel {
+	font-family: "PTSerif-Bold";
+	font-weight: bold;
+}
+.main-content__description {
 	font-family: "Roboto-Regular";
 }
-button {
+.main-content__button {
 	font-family: "Roboto-Regular";
 }
