@@ -5,28 +5,42 @@ body {
 .wrapper {
 	margin: auto;
 	width: 80%;
-	border: dashed 1px red;
 }
 .header {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 .logo {
-	font-family: "PTSerif-Bold";
+	position: relative;
 	padding: 40px 0;
-	border: dashed 1px red;
-	align-items: center;
+	padding-left: 44px;
+	font: bold 24px/32px "PTSerif-Bold", Arial, Helvetica, Sans-serif;
+}
+.logo__circle{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	opacity: 0.7;
+}
+.logo__circle_color_dark-blue{
+	background: #0056EC;
+}
+.logo__circle_color_blue{ 
+left: 8px;
+top: 56%;
+background: #C8DBFB;
 }
 .menu {
 	display: flex;
 	align-items: center;
 }
 .menu__item {
-	font-family: "Roboto-Regular";
-	font-weight: bold;
+	font: 500 18px/21px "Roboto-Regular", Arial, Helvetica, Sans-serif;
 	padding: 0 13px;
-	border: dashed 1px red;
 }
 .menu__item:last-child {
 	padding-right: 0;
@@ -37,12 +51,11 @@ body {
 	align-items: center;
 }
 .main-content__titel {
-	font-family: "PTSerif-Bold";
-	font-weight: bold;
+	font: bold 66px/87px "PTSerif-Bold", Arial, Helvetica, Sans-serif;
 }
 .main-content__description {
-	font-family: "Roboto-Regular";
+	font: normal 22px/26px "Roboto-Regular", Arial, Helvetica, Sans-serif;
 }
 .main-content__button {
-	font-family: "Roboto-Regular";
+	font: 500 18px/21px "Roboto-Regular", Arial, Helvetica, Sans-serif;
 }
