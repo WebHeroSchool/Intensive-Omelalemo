@@ -9,7 +9,7 @@ body {
 .header {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 203px;
+	margin-bottom: 190px;
 }
 .logo {
 	position: relative;
@@ -42,7 +42,7 @@ background: #C8DBFB;
 .menu__item {
 	position: relative;
 	font: 500 18px/21px "Roboto-Regular", Arial, Helvetica, Sans-serif;
-	margin-right: 21px;
+	margin-right: 29px;
 	color: #000;
 	text-decoration: none;
 	transition: opacity .5s;
@@ -98,18 +98,20 @@ box-shadow:
 	opacity: 1;
 }
 .main {
-	padding: 0 63% 203px 0;
+	padding: 0 63% 190px 0;
 	background: top right no-repeat url(img/Group.png);
+	/*background-position: 25px:*/ 
 }
 .main__titel {
-	margin: 0 0 37px 0;
+	margin: 0 0 38px 0;
+	padding-top: 15px;
 	font: bold 66px/87px "PTSerif-Bold", Arial, Helvetica, Sans-serif;
 }
 .main__titel-text_highlight{
 	background: #ECF3FF;
 }
 .main__description {
-	margin: 0 0 41px 0;
+	margin: 0 100px 38px 0;
 	font: normal 22px/26px "Roboto-Regular", Arial, Helvetica, Sans-serif;
 }
 .main__button {
