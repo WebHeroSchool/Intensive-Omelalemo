@@ -140,7 +140,7 @@ box-shadow:
 	display: none;
 }
 
-@media (max-width: 1366px) {
+@media (max-width:1366px) {
 	.hamburger-menu {
 		display: none;
 	}
@@ -150,21 +150,21 @@ box-shadow:
 	width: 68%;
 }
 .header {
-	margin-bottom: 103px;
+	margin-bottom: 85px;
 }
 .logo {
-	padding: 40px 0;
+	padding: 40px 0 40px 0;
 	padding-left: 44px;
 }
+
 .menu__item {
 	font: 500 14px/16px "Roboto-Regular", Arial, Helvetica, Sans-serif;
 	margin-right: 29px;
 	margin-top: 8px;
 }
 .main {
-	padding: 0 50% 100px 0;
-	background-size: 55%;
-
+	padding: 16px 50% 100px 0;
+	background: top right no-repeat url(img/Frame1366.png);
 }
 .main__titel {
 	margin: 0px 0 36px 0;
@@ -182,9 +182,10 @@ box-shadow:
 	padding: 14px 20px;
 	font: 500 14px/16px "Roboto-Regular", Arial, Helvetica, Sans-serif;
 }
+}
 
 
-@media (max-width: 1024px) {
+@media (max-width:1024px) {
 	.hamburger-menu {
 		display: none;
 	}
@@ -192,7 +193,7 @@ box-shadow:
 	width: 91%;
 }
 .header {
-	margin-bottom: 103px;
+	margin-bottom: 85px;
 }
 .menu__item {
 	font: 500 14px/16px "Roboto-Regular", Arial, Helvetica, Sans-serif;
@@ -200,9 +201,8 @@ box-shadow:
 	margin-top: 8px;
 }
 .main {
-	padding: 0 50% 100px 0;
-	background-size: 54%;
-
+	padding: 16px 55% 100px 0;
+	background: top right no-repeat url(img/Frame1366.png);
 }
 .main__titel {
 	margin: 0px 0 36px 0;
@@ -210,20 +210,18 @@ box-shadow:
 	font: bold 50px/66px "PTSerif-Bold", Arial, Helvetica, Sans-serif;
 }
 .main__description {
-	padding: 0 100px 18px 0px;
+	padding: 0 80px 18px 0px;
 	margin: 0 0px 22px 0;
 	font: normal 18px/21px "Roboto-Regular", Arial, Helvetica, Sans-serif;
 }
-	
 .main__button {
 	display: inline-block;
 	padding: 14px 20px;
 	font: 500 14px/16px "Roboto-Regular", Arial, Helvetica, Sans-serif;
 }
+}
 
-
-
-@media (max-width: 768px) {
+@media (max-width:768px) {
 	.wrapper {
 	margin: auto;
 	width: 87%;
@@ -350,7 +348,6 @@ box-shadow:
 	padding-top: 20px;
 	font: bold 30px/40px "PTSerif-Bold", Arial, Helvetica, Sans-serif;
 }
-	}
 	.main__description {
 	padding: 0 45px;
 	margin: 0 0px 25px 0;
@@ -360,7 +357,7 @@ box-shadow:
 		font: 500 14px/16px "Roboto-Regular", Arial, Helvetica, Sans-serif;
 		padding: 14px 16px;
 	}
-
+}
 
 
 
