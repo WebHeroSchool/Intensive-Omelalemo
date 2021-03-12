@@ -27,6 +27,7 @@ body {
 	border-radius: 50%;
 	opacity: 0.7;
 }
+
 .logo__circle_color_dark-blue{
 	background: #0056EC;
 }
@@ -123,18 +124,51 @@ box-shadow:
 	border-radius: 4px;
 	transition: opacity.5s;
 }
+.main__button::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(0, 0, 0, .2);
+	border-radius: 100%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
 .main__button:hover {
-	opacity: .5;
-	box-shadow:
-    1px 1px #00AD9F,
-    2px 2px #00AD9F,
-    3px 3px #00AD9F,
-    4px 4px #00AD9F,
-    5px 5px #00AD9F,
-    6px 6px #00AD9F,
-    7px 7px #00AD9F;
-  -webkit-transform: translateX(-7px);
-  transform: translateX(-7px);
+	animation: bloom ease-in-out .75s forwards;
+}
+.main__button:hover:: before {
+	animation: circle .75s;
+}
+@keyframes bloom {
+	0% {
+		filter: grayscale(.8);
+	}
+	40% {
+		filter: grayscale(.5);
+	}
+	100% {
+		filter: grayscale(0);
+	}
+}
+@keyframes circle {
+	0% {
+		opacity: .5;
+		background: rgba(213, 156, 34, .2);
+	}
+	40% {
+		opacity: 1;
+		background: rgba(213, 34, 160, .2);
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
 }
 .hamburger-menu {
 	display: none;
